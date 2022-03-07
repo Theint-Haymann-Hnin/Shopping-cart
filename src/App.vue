@@ -1,25 +1,22 @@
 <template>
   <div id="app">
-    <!-- <div class="container"> -->
-      <app-header></app-header>
-   <router-view></router-view>
-    </div>
-  <!-- </div> -->
+    <app-header></app-header>
+    <router-view></router-view>
+    <footer-page></footer-page>
+  </div>
 </template>
 <script>
-import AppHeader from '@/components/AppHeader.vue'
+import AppHeader from "@/components/AppHeader.vue";
+import FooterPage from "@/components/FooterPage";
 
-
-export default{
+export default {
   name: "app",
   components: {
-    AppHeader
-   
-  }
-}
+    AppHeader,
+    FooterPage,
+  },
+};
 </script>
-
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

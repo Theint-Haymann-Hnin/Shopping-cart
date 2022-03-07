@@ -11,19 +11,24 @@ const routes = [
     name: 'home',
     component: HomeView
   },
-  
+
   {
     path: '/product/:id',
     name: 'Product',
     component: Product,
     props: true
   },
-  
+
   {
     path: '/about',
     name: 'about',
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  }
+  },
+  {
+    path: '/contactus',
+    name: 'ContactUs',
+    component: () => import(/* webpackChunkName: "contact" */ '../views/Contactus.vue')
+  },
 ]
 
 const router = new VueRouter({

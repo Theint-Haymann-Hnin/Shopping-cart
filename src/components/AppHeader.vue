@@ -9,7 +9,12 @@
               <router-link to="/" class="nav-link">Home</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Product</a>
+              <router-link to="/about" class="nav-link">About us</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link to="/contactus" class="nav-link"
+                >Contact us</router-link
+              >
             </li>
           </ul>
         </div>
@@ -74,7 +79,6 @@ nav {
   background-image: linear-gradient(red, #ec7063);
 }
 
-/* applied after scroll height reached */
 .fixed-nav nav {
   position: fixed;
   top: 0;
@@ -90,5 +94,6 @@ nav {
 .nav-link {
   font-family: "The Nautigal", cursive;
   font-size: 30px;
+  margin-left: 20px;
 }
 </style>

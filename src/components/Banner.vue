@@ -5,8 +5,10 @@
         <div class="container px-5">
           <h1 class="masthead-heading mb-0">FASHION TRENDS</h1>
           <h2 class="masthead-subheading mb-0">Buy & Sell Near You</h2>
-          <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll"
-            >About Us</a
+          <router-link to="/about" class="nav-link">
+            <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll"
+              >About Us</a
+            ></router-link
           >
         </div>
       </div>

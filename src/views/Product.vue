@@ -10,16 +10,19 @@
       </div>
       <div class="col-8">
         <div class="card">
-          <h5 class="card-header pt-3 pb-3" style="background-color: #e3f2fd">
+          <h5
+            class="card-header pt-3 pb-3"
+            style="background-image: linear-gradient(red, #ec7063)"
+          >
             {{ product.title }}
           </h5>
           <div class="card-body">
-            <h5 class="card-title">{{ product.price }}</h5>
+            <h5 class="card-title mt-3">{{ product.price }}</h5>
             <input type="text" class="text-center col-1 mr-1" />
             <button class="brn btn-dark" @click="addToCart()">
               Add to cart
             </button>
-            <p class="card-text">{{ product.description }}</p>
+            <p class="card-text mt-3">{{ product.description }}</p>
           </div>
         </div>
       </div>
@@ -49,13 +52,10 @@ export default {
   },
 };
 </script>
-
-
 <style scoped>
 .card-text {
   text-align: left;
   text-align: justify;
   margin-top: 10px;
 }
-
 </style>

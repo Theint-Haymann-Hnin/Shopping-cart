@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex align-items-stretch flex-wrap">
+  <div class="d-flex align-items-stretch flex-wrap mb-5">
     <product-cart
       v-for="product in products"
       :key="product.id"
