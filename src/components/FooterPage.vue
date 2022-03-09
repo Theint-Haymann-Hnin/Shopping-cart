@@ -58,9 +58,6 @@
 .name {
   font-size: 50px;
 }
-.container {
-  overflow: hidden;
-}
 .about-site {
   text-align: left;
   text-align: justify;

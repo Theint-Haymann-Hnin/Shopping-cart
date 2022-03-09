@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="row mt-5 clearfix" v-if="product">
+    <div class="row mt-5 mb-5 clearfix" v-if="product">
       <div class="col-4">
         <img
           :src="product.image"
@@ -17,7 +17,7 @@
             {{ product.title }}
           </h5>
           <div class="card-body">
-            <h5 class="card-title mt-3">{{ product.price }}</h5>
+            <h5 class="card-title mt-3">${{ product.price }}</h5>
             <input type="text" class="text-center col-1 mr-1" />
             <button class="brn btn-dark" @click="addToCart()">
               Add to cart

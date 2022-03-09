@@ -1,5 +1,5 @@
 <template>
-  <div
+    <div
     class="dropdown-menu p-2"
     style="
       min-width: 320px;
