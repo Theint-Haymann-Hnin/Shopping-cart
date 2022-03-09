@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <div class="row mt-5 mb-5 clearfix" v-if="product">
       <div class="col-4">
         <img
